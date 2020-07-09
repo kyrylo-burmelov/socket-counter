@@ -1,0 +1,10 @@
+#home .navigation-container a {
+  width: 200px;
+  height: 200px;
+  margin: 0 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+  background-color: var(--main-button-background);
+  border: 2px solid var(--main-button-border);
+  color: var(--main-font-color);
+}

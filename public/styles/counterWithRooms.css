@@ -1,0 +1,19 @@
+#rooms-container {
+  width: 100%;
+  min-height: 100px;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+
+#rooms-container .room-item {
+  padding: 10px 20px;
+  background-color: var(--secondary-button-background);
+  color: var(--secondary-font-color);
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#rooms-container .room-item.active {
+  outline: 2px solid var(--secondary-button-active-border);
+  cursor: default;
+}

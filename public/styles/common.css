@@ -1,0 +1,32 @@
+.full-screen {
+  height: 100vh;
+  width: 100%;
+}
+
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.no-select {
+  user-select: none;
+}
+
+.disabled {
+  cursor: default !important;
+}
+
+:root {
+  --main-button-background: #D9D1CE;
+  --main-button-border: #CAC1AC;
+  --main-font-color: #7F7F7F;
+  --secondary-button-background: #EFF0ED;
+  --secondary-button-active-border: #5D6591;
+  --secondary-font-color: #333;
+}

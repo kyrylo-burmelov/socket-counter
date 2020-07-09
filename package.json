@@ -1,0 +1,26 @@
+{
+  "name": "socket-counter",
+  "version": "1.0.0",
+  "description": "Lecture for Binary Studio Academy",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js --exec \"babel-node\""
+  },
+  "keywords": [
+    "bsa",
+    "lecture"
+  ],
+  "author": "Kyrylo Burmelov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/register": "^7.10.1",
+    "nodemon": "^2.0.4"
+  }
+}

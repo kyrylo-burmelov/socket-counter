@@ -1,0 +1,12 @@
+#counter-container {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  background-color: var(--main-button-background);
+  border: 2px solid var(--main-button-border);
+}
+
+#counter-value {
+  font-size: 2.9em;
+  color: var(--main-font-color);
+}
